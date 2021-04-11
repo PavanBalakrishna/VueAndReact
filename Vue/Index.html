@@ -1,0 +1,49 @@
+<html>
+    <head>
+        <script src="https://cdn.jsdelivr.net/npm/vue/dist/vue.js"></script>
+        <link href="style.css" rel="stylesheet" />
+    </head>
+    <body>
+        <div id="root">
+            <div class="green" v-once="message"></div>
+            <br/>
+            {{message}}
+            <br/>
+            {{email}}
+            <br/>
+
+            <div v-html="message">
+            </div>
+            <br/>
+            
+            <div v-text="message">
+                
+            </div>
+           
+            <br/>
+            <input placeholder="message" type="text" v-model="message"  :class="[message.length < 3 ? 'red' : 'green']" />
+            <br/>
+            <input placeholder="email" type="text" v-model="email" v-bind:class="{green: email.length > 5}" />
+            <br />
+            <input placeholder="New Member Name" type="text" v-model="newMember" v-on:keydown.enter="addMember" />
+            <br/>
+            <div v-if="message==1">
+                <p>Message 1</p>
+            </div>
+            <div v-else-if="message==2">
+                <p>Message 1</p>
+            </div>
+            <div v-else>
+                No Message
+            </div>
+            <div v-show='message==3'>
+                Showing
+            </div>
+         <input type="button" v-on:click="addMember" v-bind:disabled="message == 'e'" value="Click Me !" />
+         <div v-for="p in jfam">
+                {{p | capitalize}}
+         </div>
+        </div>
+        <script src="main.js"></script>
+    </body>
+</html>

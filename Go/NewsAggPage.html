@@ -1,0 +1,37 @@
+<script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha256-4+XzXVhsDmqanXGHaHvgh1gMQKX40OUvDEBTu8JcmNs=" crossorigin="anonymous"></script>
+<link rel="stylesheet" type="text/css" href="https://cdn.datatables.net/1.10.21/css/jquery.dataTables.css">
+  
+<script type="text/javascript" charset="utf8" src="https://cdn.datatables.net/1.10.21/js/jquery.dataTables.js"></script>
+
+
+
+<h1>{{.Title}}</h1>
+
+<table id="table_id">
+    <thead>
+        <th>
+            <td>Title</td>
+            <td>Key Words</td>
+        </th>
+    </thead>
+    <tbody>
+    {{ range $key, $value := .News }}
+        <tr>
+            <td >
+               <a href=" {{ $value.Location }}" target="_blank">
+                {{ $value.Title }}   
+               </a>
+            </td>
+            <td>
+                {{ $value.KeyWords }}
+            </td>
+        </tr>
+        {{ end }}
+    </tbody>
+</table>    
+
+<script>
+    $(document).ready( function () {
+    $('#table_id').DataTable();
+} );
+</script>
