@@ -17,8 +17,8 @@ var authenticationDetails = new AmazonCognitoIdentity.AuthenticationDetails(
     authenticationData
 );
 var poolData = {
-    UserPoolId: 'ap-northeast-1_hkTEkTQF4', // Your user pool id here
-    ClientId: '2gjvot6ugjce7kkmjj51un5no0', // Your client id here
+    UserPoolId: '', // Your user pool id here
+    ClientId: '', // Your client id here
 };
 var userPool = new AmazonCognitoIdentity.CognitoUserPool(poolData);
 var userData = {
