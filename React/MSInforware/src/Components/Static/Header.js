@@ -1,14 +1,10 @@
 import React from 'react'
-import {Navbar,Nav,NavDropdown,Jumbotron,Container,Row,Col} from 'react-bootstrap';
-import HeaderImage from '../../Images/Static/Header.jpeg'; // with import
+import {Navbar,Nav,Jumbotron,Container,Row,Col} from 'react-bootstrap';
+
+import {Link}  from "react-router-dom";
 
 export default function Header() {
-    
-    const JumboTronStyle = {
-        backgroundImage: "url('"+HeaderImage+"')",
-        minHeight:"60vh",
-        
-      };
+  
 
     return (
         <Container fluid>
@@ -19,9 +15,9 @@ export default function Header() {
             <Navbar.Toggle aria-controls="responsive-navbar-nav" />
             <Navbar.Collapse id="responsive-navbar-nav">
                 <Nav className="mr-auto">
-                <Nav.Link href="/">Home</Nav.Link>
-                <Nav.Link href="/Services">Services</Nav.Link>
-                <Nav.Link href="/AboutUs">About Us</Nav.Link>
+                <Nav.Link as={Link} to="/">Home</Nav.Link>
+                <Nav.Link as={Link} to="/Services">Services</Nav.Link>
+                <Nav.Link as={Link} to="/AboutUs">About Us</Nav.Link>
                 {/* <NavDropdown title="Dropdown" id="collasible-nav-dropdown">
                     <NavDropdown.Item href="#action/3.1">Action</NavDropdown.Item>
                     <NavDropdown.Item href="#action/3.2">Another action</NavDropdown.Item>
@@ -38,7 +34,7 @@ export default function Header() {
 <Row>
     <Col sm="1"></Col>
     <Col sm="10">
-<Jumbotron style={JumboTronStyle} >
+<Jumbotron className='header-jumbotron' >
 
  
 </Jumbotron>
