@@ -1,0 +1,13 @@
+C:\Users\MHM-Pavan-admin\source\repos\DataStructures\bin\Debug\netcoreapp3.1\DataStructures.exe
+C:\Users\MHM-Pavan-admin\source\repos\DataStructures\bin\Debug\netcoreapp3.1\DataStructures.deps.json
+C:\Users\MHM-Pavan-admin\source\repos\DataStructures\bin\Debug\netcoreapp3.1\DataStructures.runtimeconfig.json
+C:\Users\MHM-Pavan-admin\source\repos\DataStructures\bin\Debug\netcoreapp3.1\DataStructures.runtimeconfig.dev.json
+C:\Users\MHM-Pavan-admin\source\repos\DataStructures\bin\Debug\netcoreapp3.1\DataStructures.dll
+C:\Users\MHM-Pavan-admin\source\repos\DataStructures\bin\Debug\netcoreapp3.1\DataStructures.pdb
+C:\Users\MHM-Pavan-admin\source\repos\DataStructures\obj\Debug\netcoreapp3.1\DataStructures.csprojAssemblyReference.cache
+C:\Users\MHM-Pavan-admin\source\repos\DataStructures\obj\Debug\netcoreapp3.1\DataStructures.csproj.CoreCompileInputs.cache
+C:\Users\MHM-Pavan-admin\source\repos\DataStructures\obj\Debug\netcoreapp3.1\DataStructures.AssemblyInfoInputs.cache
+C:\Users\MHM-Pavan-admin\source\repos\DataStructures\obj\Debug\netcoreapp3.1\DataStructures.AssemblyInfo.cs
+C:\Users\MHM-Pavan-admin\source\repos\DataStructures\obj\Debug\netcoreapp3.1\DataStructures.dll
+C:\Users\MHM-Pavan-admin\source\repos\DataStructures\obj\Debug\netcoreapp3.1\DataStructures.pdb
+C:\Users\MHM-Pavan-admin\source\repos\DataStructures\obj\Debug\netcoreapp3.1\DataStructures.genruntimeconfig.cache
